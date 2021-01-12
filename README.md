@@ -19,7 +19,7 @@ cd  xxx/
 ## Mask:
 * qd_imd: https://github.com/karfly/qd-imd
 
-# Train
+## Train
 ```
 CUDA_VISIBLE_DEVICES=<gpu_id> python train.py  --dataset_name='imagenet' --batch_size=8  --image_size=256 --mask_root='./download_mask/qd_imd/train/' --save_dir='./snapshot/imagenet/'
 ```
