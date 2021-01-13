@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=7  python train.py  --dataset_name='imagenet' --batch_size=8  --image_size=256 --mask_root='./qd_imd/train/' --save_dir='./snapshot/imagenet/'
