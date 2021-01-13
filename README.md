@@ -3,8 +3,8 @@
 ## Installation
 Clone this repo.
 ```
-git clone xxx
-cd  xxx/
+git clone https://github.com/wj320/Improved-encoder-decoder-inpainting.git
+cd  Improved-encoder-decoder-inpainting/
 ```
 
 ## Requirements
