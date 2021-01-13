@@ -28,5 +28,3 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python train.py  --dataset_name='imagenet' --batch
 ```
 python test_batch.py  --image_size=256  --mask_root='./masks/download_mask/qd_imd/test/'   --snapshot='./snapshot/imagenet/ckpt/300000.pth'  --save_path='test_result/imagenet/'
 ```
-
-## Examples
