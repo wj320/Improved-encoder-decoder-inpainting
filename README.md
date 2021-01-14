@@ -28,13 +28,3 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python train.py  --dataset_name='imagenet' --batch
 ```
 python test_batch.py  --image_size=256  --mask_root='./masks/download_mask/qd_imd/test/'   --snapshot='./snapshot/imagenet/ckpt/300000.pth'  --save_path='test_result/imagenet/'
 ```
-## Examples
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/mask_28003.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/gt_28003.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/out_28003.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/mask_28251.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/gt_280251.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/out_280251.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/mask_280252.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/gt_280252.png)
-![image](https://github.com/wj320/Improved-encoder-decoder-inpainting/blob/main/examples/out_280252.png)
